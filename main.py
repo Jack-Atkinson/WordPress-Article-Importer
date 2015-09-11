@@ -5,7 +5,9 @@ from os import path
 article_csv = "C:\\Users\\jatkinson\\Desktop\\articles.csv";
 articles_dir = "C:\\Users\\jatkinson\\Desktop\\articles"
 
-fieldnames = ("post_name", "post_title", "post_status", "post_content", "post_excerpt", "post_author", "post_parent", "post_date", "post_image", "comment_status", "ping_status")
+fieldnames = ("post_name", "post_title", "post_status", "post_content",
+              "post_excerpt", "post_author", "post_parent", "post_date",
+              "post_image", "comment_status", "ping_status")
 
 class FindString:
 	def __init__(self, pattern, content, delimiter, offset=0):
